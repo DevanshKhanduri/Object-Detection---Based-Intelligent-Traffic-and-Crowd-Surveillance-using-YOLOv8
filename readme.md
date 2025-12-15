@@ -120,7 +120,7 @@ python app/webcam_detect.py
 
 ### **Training and Validation results**
 
-![result](./images/result.png)
+![result](./images/results.png)
 
 ---
 
