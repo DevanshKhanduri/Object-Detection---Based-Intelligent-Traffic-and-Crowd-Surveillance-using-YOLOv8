@@ -31,27 +31,30 @@ This system can be used in:
 Object-Detection-Project/
 │
 ├── model/
-│ └── best.pt                               # Trained YOLOv8 model
+│   └── best.pt                             # Trained YOLOv8 model
 │
 ├── images/
-|
+│
+├── notebooks
+│   └── obj-detection.ipynb                 # Notebook for training, evaluating, and saving the model
+│
 ├── output/
-│ ├── output.jpg                            # Image detection result
-│ ├── output.mp4                            # Webcam recorded output
-│ └── alerts.log                            # Alert log file
+│   ├── output.jpg                          # Image detection result
+│   ├── output.mp4                          # Webcam recorded output
+│   └── alerts.log                          # Alert log file
 │
 ├── venv/                                   # Virtual environment directory for dependency isolation
-|
+│
 ├── utils.py                                # Counting, alerts, logging
-|
+│
 ├── image_detect.py                         # Image detection script
-|
+│
 ├── webcam_detect.py                        # Webcam detection script
-|
+│
 ├── requirements.txt                        # Complete list of required Python packages
-|
+│
 ├── .gitignore                              # Tells Git what to ignore
-|
+│
 └── README.md                               # Project description, setup instructions, usage guide
 ```
 
